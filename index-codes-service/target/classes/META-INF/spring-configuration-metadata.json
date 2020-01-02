@@ -1,0 +1,11 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "cn.how2j.trend.config.RedisCacheConfig",
+      "name": "spring.cache.redis",
+      "type": "cn.how2j.trend.config.RedisCacheConfig"
+    }
+  ],
+  "properties": []
+}
