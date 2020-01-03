@@ -1,0 +1,9 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+spring:
+  application:
+    name:  trend-trading-backtest-service
+#开启feign模式的断路器
+feign.hystrix.enabled: true

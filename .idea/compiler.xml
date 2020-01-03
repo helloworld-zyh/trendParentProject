@@ -13,6 +13,7 @@
         <module name="indexzuulservice" />
         <module name="thirdpartindexdataproject" />
         <module name="trendtradingbacktestservice" />
+        <module name="trendtradingbacktestview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -28,6 +29,7 @@
       <module name="indexzuulservice" options="-parameters" />
       <module name="thirdpartindexdataproject" options="-parameters" />
       <module name="trendtradingbacktestservice" options="-parameters" />
+      <module name="trendtradingbacktestview" options="-parameters" />
     </option>
   </component>
 </project>
