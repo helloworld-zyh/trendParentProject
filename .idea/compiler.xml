@@ -6,14 +6,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eurekaserver" />
-        <module name="indexcodesservice" />
-        <module name="indexdataservice" />
+        <module name="index-zuul-service" />
         <module name="indexgatherstoreservice" />
-        <module name="indexzuulservice" />
-        <module name="thirdpartindexdataproject" />
+        <module name="index-codes-service" />
+        <module name="trend-trading-backtest-view" />
+        <module name="indexdataservice" />
         <module name="trendtradingbacktestservice" />
+        <module name="index-data-service" />
+        <module name="eurekaserver" />
+        <module name="indexzuulservice" />
+        <module name="third-part-index-data-project" />
         <module name="trendtradingbacktestview" />
+        <module name="eureka-server" />
+        <module name="thirdpartindexdataproject" />
+        <module name="index-gather-store-service" />
+        <module name="trend-trading-backtest-service" />
+        <module name="indexcodesservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -22,12 +30,20 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-server" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
+      <module name="index-codes-service" options="-parameters" />
+      <module name="index-data-service" options="-parameters" />
+      <module name="index-gather-store-service" options="-parameters" />
+      <module name="index-zuul-service" options="-parameters" />
       <module name="indexcodesservice" options="-parameters" />
       <module name="indexdataservice" options="-parameters" />
       <module name="indexgatherstoreservice" options="-parameters" />
       <module name="indexzuulservice" options="-parameters" />
+      <module name="third-part-index-data-project" options="-parameters" />
       <module name="thirdpartindexdataproject" options="-parameters" />
+      <module name="trend-trading-backtest-service" options="-parameters" />
+      <module name="trend-trading-backtest-view" options="-parameters" />
       <module name="trendtradingbacktestservice" options="-parameters" />
       <module name="trendtradingbacktestview" options="-parameters" />
     </option>
