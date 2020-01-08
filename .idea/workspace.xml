@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47c34932-0eb6-4818-83a7-abc855cd5733" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/TrendTradingBackTestServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/TrendTradingBackTestServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/service/BackTestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/service/BackTestService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/web/BackTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/web/BackTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/TrendTradingBackTestServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/TrendTradingBackTestServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/service/BackTestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/service/BackTestService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/web/BackTestController.class" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-service/target/classes/cn/how2j/trend/web/BackTestController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/src/main/resources/templates/view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/trend-trading-backtest-view/target/classes/templates/view.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,15 +29,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>indexDat</find>
-      <find>indexDate</find>
-    </findStrings>
-    <dirStrings>
-      <dir>E:\how2jfile\trendParentProject\index-gather-store-service\src\main\java\cn\how2j\trend\pojo</dir>
-    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,7 +62,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -100,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.TrendTradingBackTestViewApplication">
+  <component name="RunManager" selected="Spring Boot.IndexZuulServiceApplication">
     <configuration name="IndexCodesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="index-codes-service" />
       <extension name="coverage">
@@ -178,16 +170,16 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.IndexGatherStoreApplication" />
-      <item itemvalue="Spring Boot.TrendTradingBackTestServiceApplication" />
       <item itemvalue="Spring Boot.IndexCodesApplication" />
       <item itemvalue="Spring Boot.IndexDataApplication" />
+      <item itemvalue="Spring Boot.TrendTradingBackTestServiceApplication" />
       <item itemvalue="Spring Boot.TrendTradingBackTestViewApplication" />
       <item itemvalue="Spring Boot.IndexZuulServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.TrendTradingBackTestViewApplication" />
         <item itemvalue="Spring Boot.IndexZuulServiceApplication" />
+        <item itemvalue="Spring Boot.TrendTradingBackTestViewApplication" />
         <item itemvalue="Spring Boot.TrendTradingBackTestServiceApplication" />
         <item itemvalue="Spring Boot.IndexDataApplication" />
         <item itemvalue="Spring Boot.IndexCodesApplication" />
@@ -214,7 +206,8 @@
       <workItem from="1578271256938" duration="20961000" />
       <workItem from="1578359393577" duration="578000" />
       <workItem from="1578362476226" duration="1827000" />
-      <workItem from="1578364633402" duration="14130000" />
+      <workItem from="1578364633402" duration="14704000" />
+      <workItem from="1578443783672" duration="20245000" />
     </task>
     <servers />
   </component>
@@ -239,23 +232,18 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/service/BackTestService.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/service/BackTestService.java</url>
-          <line>42</line>
+          <line>55</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/service/BackTestService.java</url>
-          <line>111</line>
+          <line>140</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/trend-trading-backtest-service/src/main/java/cn/how2j/trend/web/BackTestController.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="7" />
+          <line>33</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
