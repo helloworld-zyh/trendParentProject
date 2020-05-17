@@ -1,2 +1,2 @@
 # trendParentProject
-springcloud项目
+将spring boot单体应用拆分成springcloud服务的应用
